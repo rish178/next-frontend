@@ -1,0 +1,48 @@
+.cbox{
+    border: 1px solid black;
+}
+.wcbox{
+    border: 1px solid white;
+}
+
+.navbar-bg{
+    background-color: #E8F3FF;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-div h2{
+    color: #0283FF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.nav-list, .topList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 23px;
+    color: #0283FF;
+}
+
+.nav-list li{
+    margin-right: 20px;
+}
+
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
