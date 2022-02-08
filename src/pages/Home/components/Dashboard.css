@@ -1,0 +1,34 @@
+.cbox{
+    border: 1px solid black;
+}
+
+.inner-div{
+padding-top: 52px;
+}
+
+.dashboard-inner-div{
+    margin-top: 52px;
+    
+}
+.dashboard-first-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 98px;
+    background-color: rgb(240, 236, 236);
+    margin-bottom: 10px;
+    padding: 7px 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.dashboad-icon-div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   cursor: pointer;
+   margin-bottom: 90px;
+}
